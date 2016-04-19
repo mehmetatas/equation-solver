@@ -1,6 +1,6 @@
 machine:
   timezone:
-    Turkey/Istanbul
+    Asia/Istanbul
 
   java:
     version: oraclejdk8
