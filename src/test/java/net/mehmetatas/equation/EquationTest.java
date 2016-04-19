@@ -10,6 +10,7 @@ public class EquationTest {
     public void levelEqualsCoefficientsLength() {
         Equation eq = new Equation(0d, new double[]{1d, 2d, 3d});
 
-        assertEquals(3, eq.getLevel());
+        // break intentionally
+        assertEquals(4, eq.getLevel());
     }
 }
