@@ -1,6 +1,6 @@
 FROM java:8
 
-COPY ./target/equation-1.0-SNAPSHOT.jar ./app.jar
+COPY target/equation-1.0-SNAPSHOT.jar /app.jar
 
 EXPOSE 8080
 
