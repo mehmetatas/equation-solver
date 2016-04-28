@@ -4,10 +4,12 @@ import net.mehmetatas.equation.Equation;
 import net.mehmetatas.equation.EquationSolver;
 import net.mehmetatas.equation.EquationSystem;
 import net.mehmetatas.equation.exceptions.SingularMatrixException;
+import org.springframework.stereotype.Component;
 
 /**
  * Created by mehmet on 19.04.2016.
  */
+@Component
 public class GaussJordanEliminationSolver implements EquationSolver {
     private final static double EPSILON = 1e-10;
 
